@@ -1,0 +1,63 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+    }
+
+    .flex{
+        display: flex;
+    }
+    
+
+    body{
+        font-family: "Gruppo";
+        background-color: #1a1a1a;
+        color: #FFF;
+    }
+
+    .title-site {
+        margin-top: 10px;
+        position: absolute;
+        color: #FFF;
+        width: 100%;
+    }
+
+    .title-site h3 {
+        font-size: 2rem;
+        word-spacing: 10px;
+        text-align: center;
+    }
+
+    .title-site h3 strong {
+        font-size: 3rem;
+        letter-spacing: 0.8rem;
+    }
+
+    #banner-day {
+        width: 100%;
+        height: 450px;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .content-explanation {
+        margin-top: 10px;
+        width: 100%;
+        text-align: justify;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h4.title-description {
+        margin-bottom: 20px;
+        font-size: 1.3rem;
+    }
+
+    p#explanation {
+        width: 80%;
+        font-size: 1.2rem;
+    }
+
+    
