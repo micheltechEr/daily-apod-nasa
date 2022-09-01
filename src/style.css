@@ -9,7 +9,9 @@
     .flex{
         display: flex;
     }
-    
+    .hide{
+        display: none;
+    }
 
     body{
         font-family: "Gruppo";
