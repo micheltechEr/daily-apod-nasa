@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset='utf-8'>
-    <title>Page Title</title>
+    <title>Astronomic Image Daily</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -10,18 +10,26 @@
     <link rel="icon" href="./src/apod_title.ico" type="image/icon type">
     <link rel="stylesheet" href="./src/style.css">
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    
 </head>
 <body>
         <div id="banner-day">
             <div   class="title-site flex" >
-                <h3 id="title-site" class="title-site"><strong>A</strong>stronimic <strong>P</strong>ic <strong>O</strong>f <strong>D</strong>ay</h3>
-                
+                <h3 class="title-site"><strong>A</strong>stronimic <strong>P</strong>ic <strong>O</strong>f <strong>D</strong>ay
+                </h3>
+                <div class="apod-details">
+                    <span id="apod-name" ></span>
+                    <span id="apod-date"></span>
+                </div>
+
+
             </div>
         </div>
         <div class="content-explanation flex">
             <h4 class="title-description">Description</h4>
             <p id="explanation"></p>
         </div>
+        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
         <script src='./src/script.js'></script>
 
 </body>
